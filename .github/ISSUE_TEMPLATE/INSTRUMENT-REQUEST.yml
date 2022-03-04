@@ -19,7 +19,7 @@ body:
     id: instrument-details
     attributes:
       label: Instrument Details
-      description: Also tell us, what did you expect to happen?
+      description: Give a detailed description of the data, including folder structure, variable locations, and naming conventions. Be sure to include where Project, Subject, and Session fields will be pulled from. See https://sydneyuni.atlassian.net/wiki/spaces/RC/pages/960563238/MR+Solutions+3T+7T+MRI as an example
       placeholder: Tell us how your data is structure1
       value: "Description of data hierachy"
     validations:
