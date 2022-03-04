@@ -20,7 +20,15 @@ body:
     attributes:
       label: Instrument details?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
+      placeholder: Tell us how your data is structure1
       value: "Description of data hierachy"
+    validations:
+      required: true
+  - type: textarea
+    id: institution-details
+    attributes:
+      label: Instrument details?
+      placeholder: [Node]:[Number of instruments]!
+      value: "Please detail which nodes this affects, including how many instruments are affected per node"
     validations:
       required: true
