@@ -28,7 +28,7 @@ body:
     id: institution-details
     attributes:
       label: Instrument details?
-      placeholder: [Node]:[Number of instruments]!
+      placeholder: Node, Number of instruments
       value: "Please detail which nodes this affects, including how many instruments are affected per node"
     validations:
       required: true
